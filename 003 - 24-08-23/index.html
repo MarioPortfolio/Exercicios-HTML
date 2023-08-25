@@ -6,38 +6,106 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="tituloPrincipal">
-        <H1>Spoti Flix</H1>        
+    <header class="tituloPrincipal" align="center">
+        <H1>Spoti Flix</H1>
+        <h4>Todas as músicas em um só lugar</h4>        
     </header>
 
     <main>
-        <div class="musicas">
+        <div class="clmusicas">
 
-            <details>
-                <summary>Nome da música e informações</summary><br> 
-                Nome: Alan Walker - Dreamer (BEAUZ & Heleen Remix) [NCS Release]<br>
-                <a href="https://www.youtube.com/watch?v=RJHKmEu0tIQ">Acesse o site</a>
-            </details><br> 
-            <audio controls>
-                <source src="assets/audio/dreamer.mp3" type="audio/mpeg">
-                Seu navegador não é compatível com a tag audio
-            </audio>
-              
-            <audio controls>
-                <source src="assets/audio/follow.mp3" type="audio/mpeg"> 
-                Seu navegador não é compatível com a tag audio 
-            </audio>
+            <div class="clmusica1">
+                <table border="0">
+                    <tr>
+                        <details >
+                            <summary>Informações</summary>
+                            Artista: Alan Walker<br>
+                            Música: Dreamer (BEAUZ & Heleen Remix) [NCS Release]
+                        </details>
+                    </tr>
+                </table>
+            
+                <table border="0">
+                    <tr> 
+                        <td><audio controls> <source src="assets/audio/dreamer.mp3" type="audio/mpeg"> Seu navegador não é compatível com a tag audio</td>
+                        <td><a href="assets/audio/dreamer.mp3" download>Download</a></td>
+                        <td>ou</td>
+                        <td><a href="https://www.youtube.com/watch?v=RJHKmEu0tIQ">Acesse o site</a></td>    
+                        </audio><br>
+                    </tr>
+                </table>
+            </div><br><br>
 
-            <audio controls>
-                <source src="assets/audio/love mp3.mp3" type="audio/mpeg">  
-                Seu navegador não é compatível com a tag audio
-            </audio>
+            <div class="clmusica2">
+                <table border="0" align="left">
+                    <tr>
+                        <details align="left">
+                            <summary>Informações</summary>
+                            Artista: T-Mass & Rain Man<br>
+                            Música: Follow (feat. Vikki Gilmore) [NCS Release]
+                        </details>
+                    </tr>
+                </table>
+            
+                <table border="0">
+                    <tr> 
+                        <th><audio controls><source src="assets/audio/follow.mp3" type="audio/mpeg"> Seu navegador não é compatível com a tag audio</th>
+                        <td><a href="assets/audio/follow.mp3" download>Download</a></td>
+                        <td>ou</td>
+                        <td><a href="https://www.youtube.com/watch?v=lMg69x8g_24&ab_channel=NoCopyrightSounds">Acesse o site</a></td>    
+                        </audio><br>
+                    </tr>
+                </table>
+            </div><br><br>
+
+            <div class="clmusica3">
+                <table border="0" align="left">
+                    <tr>
+                        <details align="left">
+                            <summary>Informações</summary>
+                            Artista: NoCopyrightSounds<br>
+                            Música: KILLA - Retro Love [NCS Release]
+                        </details>
+                    </tr>
+                </table>
+            
+                <table border="0">
+                    <tr> 
+                        <th><audio controls><source src="assets/audio/love mp3.mp3" type="audio/mpeg">
+                             Seu navegador não é compatível com a tag audio</th>
+                        <td><a href="assets/audio/love mp3.mp3" download>Download</a></td>
+                        <td>ou</td>
+                        <td><a href="https://www.youtube.com/watch?v=mSEIigOpJmM">Acesse o site</a></td>    
+                        </audio><br>
+                    </tr>
+                </table>
+            </div><br><br>
+        </div>
+
+        <div class="clfaq">
+
+        <details align="left">
+            <summary>De quem são os direitos autorais das músicas deste site?</summary><br>
+            Músicas fornecidas por NoCopyrightSounds.
+        </details>
+
+        <details align="left">
+            <summary>Posso revender as músicas deste site?</summary><br>
+            Não
+        </details>
+
+        <details align="left">
+            <summary>Posso postar músicas deste site em meus videos do Youtube?</summary><br>
+            Sim - tudo o que pedimos é que você dê crédito ao artista e à(s) música(s) usada(s) na descrição do seu vídeo/transmissão ao vivo.
+        </details>
+        
 
         </div>
 
     </main>
 
     <footer>
+        <p class="copyright" align="center">© Copyright Spot Flix 2023</p>
 
     </footer>
     
