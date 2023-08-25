@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+}
+h1{
+    padding: 0;
+}
+.classe1{
+    background-color: rgb(245, 115, 10);
+    color: blue;
+    
+}
+#id{
+    padding: 0;
+}
