@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .cabecalho{
+            background-color: rgb(240, 177, 4);
+        }
+
+        .barraNav{
+            
+        }
+
+        .logo img{
+            width: 150px;
+        }
+
+        .menu ul{
+            list-style-type: none;
+        }
+
+        .menu ul li{
+            margin-left: 10px;
+            font-size: 1.4rem;
+        }
+
+        .secApresentacao{
+            background-image: url(assets/img/fundoA.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 1px solid black;
+            height: 100vh;
+        }
+
+       .bgFiltro{
+            height: 100%;
+            width: 100%;
+            backdrop-filter: blur(15px) grayscale(80);
+            color: white;
+            
+       }
+
+       .colunas{
+            display: flex;
+       }
+
+       .largura60{
+            width: 60%;
+       }
+
+       .largura40{
+            width: 40%;
+       }
+
+
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <nav class="barraNav colunas">
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="Logo da landing page">
+
+            </div>
+            <div class="menu">
+                <ul class="colunas">
+                    <a><li>Home</li></a>
+                    <li>Cursos</li>
+                    <li>Depoimentos</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Principal -->
+    <main>
+        <section class="secApresentacao">
+            <div class="bgFiltro colunas">
+               <!-- <div class="largura60">Esquerda</div> -->
+                <div class="largura40"> texto na Direita</div>
+            </div>
+           
+        </section>
+        <section class="secCurso">
+            
+        </section>
+        <section class="secDepoimento">
+
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
