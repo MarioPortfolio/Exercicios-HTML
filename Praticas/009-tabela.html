@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table{
+            empty-cells: hide;
+        }
+    
+        table, th, td{
+            border-style: solid;
+            border-top-style: dotted;
+            
+        }
+
+        th{
+            padding-left: 25px;
+            padding-right: 25px;
+            line-height: 25px;
+            background-color: black;
+            color: aliceblue;
+            border-color: red;
+        }
+
+        tr:nth-child(odd){ /*even, odd, 3n, 4, 2n*/
+            background-color: blue;
+        }
+
+        th:hover{ /*muda quando passa o mouse*/
+            background-color: red;
+        }
+
+        td{
+            height: 50px;
+            width: 100px;
+            text-align: right;
+            vertical-align: top;
+        }
+
+        .tabs{
+            width: 100vw;
+            height: 30vh;
+            overflow-y: auto;
+            overflow-x: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Titulo 1</h1>
+    <div class="tabs">
+        <table>
+                <tr>
+                    <th>primeiro nome</th>
+                    <th>ultimo nome</th>
+                    <th>primeiro nome</th>
+                    <th>ultimo nome</th>
+                </tr>
+                <tr>
+                    <th>primeiro nome</th>
+                    <th></th>
+                    <th>primeiro nome</th>
+                    <th>ultimo nome</th>
+                </tr>
+                <tr>
+                    <th>primeiro nome</th>
+                    <th></th>
+                    <th>primeiro nome</th>
+                    <th>ultimo nome</th>
+                </tr>
+                <tr>
+                    <th>primeiro nome</th>
+                    <th></th>
+                    <th>primeiro nome</th>
+                    <th>ultimo nome</th>
+                </tr>
+                <tr>
+                    <td>primeiro nome</td>
+                    <td></td>
+                    <td>primeiro nome</td>
+                    <td>ultimo nome</td>
+                </tr>
+                <tr>
+                    <td>primeiro nome</td>
+                    <td></td>
+                    <td>primeiro nome</td>
+                    <td>ultimo nome</td>
+                </tr>
+        </table>
+    </div>
+    <h1>Titulo 2</h1>
+    <div class="tabs2">
+        <table>
+                <tr>
+                    <th>primeiro nome</th>
+                    <th>ultimo nome</th>
+                    <th>primeiro nome</th>
+                    <th>ultimo nome</th>
+                </tr>
+                <tr>
+                    <th>primeiro nome</th>
+                    <th></th>
+                    <th>primeiro nome</th>
+                    <th>ultimo nome</th>
+                </tr>
+                <tr>
+                    <th>primeiro nome</th>
+                    <th></th>
+                    <th>primeiro nome</th>
+                    <th>ultimo nome</th>
+                </tr>
+                <tr>
+                    <th>primeiro nome</th>
+                    <th></th>
+                    <th>primeiro nome</th>
+                    <th>ultimo nome</th>
+                </tr>
+                <tr>
+                    <td>primeiro nome</td>
+                    <td></td>
+                    <td>primeiro nome</td>
+                    <td>ultimo nome</td>
+                </tr>
+                <tr>
+                    <td>primeiro nome</td>
+                    <td></td>
+                    <td>primeiro nome</td>
+                    <td>ultimo nome</td>
+                </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
