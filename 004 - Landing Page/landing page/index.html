@@ -5,37 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        /* CSS Reset */
+        body {
             margin: 0;
         }
 
-        .cabecalho{
+        /* Cabeçalho */
+        .cabecalho {
             background-color: rgb(240, 177, 4);
         }
 
-        .barraNav{
+
+        .barraNav {
             
         }
 
-        .logo img{
+        .logo img {
             width: 150px;
         }
 
-        .menu ul{
+        .menu {
+            width: 100%;
+            margin-right: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .menu ul {
             list-style-type: none;
         }
 
-        .menu ul li{
+        .menu ul li {
             margin-left: 10px;
             font-size: 1.4rem;
         }
 
-        .secApresentacao{
-            background-image: url(assets/img/fundoA.jpg);
+        /* Primeira Dobra - #Home */
+        .secApresentacao {
+            background-image: url("assets/img/fundoA.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             border: 1px solid black;
-            height: 100vh;
+            height: calc(85vh);
         }
 
        .bgFiltro{
@@ -71,7 +84,7 @@
             </div>
             <div class="menu">
                 <ul class="colunas">
-                    <a><li>Home</li></a>
+                    <li>Home</li>
                     <li>Cursos</li>
                     <li>Depoimentos</li>
                     <li>Contato</li>
@@ -86,12 +99,21 @@
         <section class="secApresentacao">
             <div class="bgFiltro colunas">
                <!-- <div class="largura60">Esquerda</div> -->
-                <div class="largura40"> texto na Direita</div>
+            </div>   
+                <div class="largura40"> texto na Direita
+                <h1 class="titulo1">Curso de Programação React</h1>
+                 <p class="texto1">Tudo o que você precisa</p>
+                 <p class="botao"> botao</p>
+                 </div>
             </div>
-           
+        
+            /* CSS Reset */    
         </section>
+
+        <!-- Depoimentos -->
         <section class="secCurso">
-            
+
+        <!-- Depoimentos -->    
         </section>
         <section class="secDepoimento">
 
