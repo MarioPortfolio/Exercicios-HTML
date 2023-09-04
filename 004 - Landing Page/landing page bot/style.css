@@ -23,15 +23,18 @@ body {
     height: 72px;
 }
 
+
 .cabecalho-menu {
     display: flex;
     gap: 32px;
+    align-items: center;
 }
 
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
     color: black;
     font-size: 18px;
+    
 }
 
 .conteudo {
