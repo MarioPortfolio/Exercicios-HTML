@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+        <input type="text" id="idTosse" placeholder="Tosse? V ou F"><br><br>
+        <input type="text" id="idDorDeGarganta" placeholder="Dor de gargata? V ou F"><br><br>
+        <input type="number" id="idFebre" placeholder="Febre? Graus"><br><br>
+        <input type="text" id="idFaltaDeAr" placeholder="Falta de ar? V ou F"> <br><br>
+        <input type="button" value="Testar" onclick="testar()">
+
+    </form>
+
+
+    <script>
+        
+
+        function testar() {
+
+            var tosse = document.getElementById("idTosse").value;
+            var dorGarganta = document.getElementById("idDorDeGarganta").value;
+            var febre = document.getElementById("idFebre").value;
+            var faltaDeAr = document.getElementById("idFaltaDeAr").value;
+
+            if ((tosse == "V" && dorGarganta == "V")
+            || (febre >= 38 && faltaDeAr == "V")) {
+                console.log("Procurar Médico");
+            } else {
+                console.log("Fique em casa");   
+            }
+
+        }
+
+        
+
+
+        
+        //         if (nome == "Ivan" || nome ==) {
+        //    console.log('Hellow worl! '+ nome)
+        //} else {
+        //    console.log('ops não te conheço...')
+        //     }
+        
+    </script>
+    
+</body>
+</html>
